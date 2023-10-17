@@ -1,0 +1,77 @@
+body {
+    background-image: url(imagem\ cold.webp);
+    font-family: Arial, sans-serif;
+    background-color: #bc2f2f;
+    margin: 19;
+    background-repeat: no-repeat;
+    background-size: 1320px  1405px;
+    padding: 30;
+}
+
+form {
+    background-color: #0fd0f2;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="password"],
+input[type="date"],
+input[type="color"],
+input[type="number"],
+input[type="range"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 22px;
+    font-size: 16px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
